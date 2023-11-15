@@ -903,3 +903,436 @@
 2023-11-14 19:36:18,633 - INFO - Pdb: medical Url: https://www.cebodtelecom.com/phone-service-medical-office/
 2023-11-14 19:36:18,633 - INFO - Url: cebodtelecom.com | Result: Esim
 2023-11-14 19:36:19,666 - INFO - chameleonis.com
+2023-11-14 19:37:12,914 - INFO - Saas: service Url: https://www.chameleonis.com/cloud-services/
+2023-11-14 19:37:12,961 - INFO - Saas: solution Url: https://www.chameleonis.com/our-solutions/
+2023-11-14 19:37:13,028 - INFO - Saas: builder Url: https://www.chameleonis.com/wp-content/plugins/cool-timeline-pro/includes/gutenberg-instant-builder/dist/blocks.style.build.css?ver=6.2.3
+2023-11-14 19:37:13,270 - INFO - Url: chameleonis.com | Result: 100% Saas
+2023-11-14 19:37:14,302 - INFO - citationbuilderpro.com
+2023-11-14 19:37:19,631 - INFO - Saas: service Url: https://www.citationbuilderpro.com/local-citation-service/
+2023-11-14 19:37:19,655 - INFO - Saas: tool Url: https://www.citationbuilderpro.com/free-cloud-stacking-tool/
+2023-11-14 19:37:19,761 - INFO - Saas: builder Url: https://www.citationbuilderpro.com/
+2023-11-14 19:37:19,779 - INFO - Saas: finder Url: https://www.citationbuilderpro.com/local-citation-finder/
+2023-11-14 19:37:19,965 - INFO - Pdb: review Url: https://www.citationbuilderpro.com/review-link-generater/
+2023-11-14 19:37:20,021 - INFO - Url: citationbuilderpro.com | Result: 50% Saas
+2023-11-14 19:37:21,051 - INFO - clarip.com
+2023-11-14 19:37:28,478 - INFO - Url: clarip.com | Result: Esim
+2023-11-14 19:37:29,506 - INFO - clearrisk.com
+2023-11-14 19:37:36,837 - INFO - cleo.com
+2023-11-14 19:38:10,983 - INFO - Saas: software Url: https://www.cleo.com/edi-software
+2023-11-14 19:38:11,007 - INFO - Saas: platform Url: https://resources.cleo.com/cic-platform-tour?utm_source=pathfactory&utm_medium=website
+2023-11-14 19:38:11,033 - INFO - Saas: service Url: https://www.cleo.com/index.php/services-support
+2023-11-14 19:38:11,080 - INFO - Saas: solution Url: https://www.cleo.com/index.php/solutions
+2023-11-14 19:38:11,287 - INFO - Saas: company Url: https://www.cleo.com/company/leadership
+2023-11-14 19:38:11,328 - INFO - Pdb: news Url: https://www.cleo.com/news
+2023-11-14 19:38:11,452 - INFO - Pdb: food Url: https://www.cleo.com/industry/manufacturing/food-beverage
+2023-11-14 19:38:11,512 - INFO - Pdb: university Url: https://support.cleo.com/hc/en-us/articles/360038642273-Cleo-University
+2023-11-14 19:38:11,558 - INFO - Pdb: medical Url: https://www.cleo.com/industry/manufacturing/medical-pharmaceutical
+2023-11-14 19:38:11,558 - INFO - Url: cleo.com | Result: Esim
+2023-11-14 19:38:12,591 - INFO - cloudanix.com
+2023-11-14 19:42:13,456 - INFO - Url: cloudanix.com | Result: Esim
+2023-11-14 19:42:14,487 - INFO - co-pilot.com.au
+2023-11-14 19:46:19,847 - INFO - Url: co-pilot.com.au | Result: Esim
+2023-11-14 19:46:20,873 - INFO - cobalt.net
+2023-11-14 19:46:25,761 - INFO - Url: cobalt.net | Result: Esim
+2023-11-14 19:46:26,789 - INFO - collaborative.org
+2023-11-14 19:46:42,382 - INFO - Saas: service Url: https://www.collaborative.org/youth-and-families/dys/title-i-and-english-learner-services/
+2023-11-14 19:46:42,405 - INFO - Saas: tool Url: https://www.collaborative.org/wp-content/plugins/google-language-translator/css/toolbar.css?ver=6.0.19
+2023-11-14 19:46:42,439 - INFO - Saas: solution Url: https://www.collaborative.org/consulting/community-health-solutions/
+2023-11-14 19:46:42,459 - INFO - Saas: maker Url: https://www.collaborative.org/wp-content/plugins/divi-modules-table-maker/styles/style.min.css?ver=3.0.3
+2023-11-14 19:46:42,611 - INFO - Pdb: news Url: https://www.collaborative.org/wp-content/uploads/2022/09/cropped-defaultnews-32x32.png
+2023-11-14 19:46:42,633 - INFO - Pdb: health Url: https://www.collaborative.org/consulting/community-health-solutions/
+2023-11-14 19:46:42,773 - INFO - Pdb: legal Url: https://www.collaborative.org/event/annual-legal-issues-seminar/
+2023-11-14 19:46:42,806 - INFO - Pdb: school Url: https://www.collaborative.org/youth-and-families/after-school/
+2023-11-14 19:46:42,829 - INFO - Url: collaborative.org | Result: Esim
+2023-11-14 19:46:43,861 - INFO - compuone.com
+2023-11-14 19:47:18,150 - INFO - Saas: service Url: https://www.compuone.com/managed-security-services/
+2023-11-14 19:47:18,524 - INFO - Url: compuone.com | Result: 25% Saas
+2023-11-14 19:47:19,561 - INFO - contracts365.com
+2023-11-14 19:55:23,432 - INFO - Url: contracts365.com | Result: Esim
+2023-11-14 19:55:24,467 - INFO - cyberclick.net
+2023-11-14 20:00:25,497 - INFO - cybriant.com
+2023-11-14 20:00:32,890 - INFO - Saas: service Url: https://cybriant.com/home/services/
+2023-11-14 20:00:33,131 - INFO - Pdb: news Url: https://cybriant.com/about/news/
+2023-11-14 20:00:33,262 - INFO - Pdb: review Url: https://cybriant.com/reviews/
+2023-11-14 20:00:33,359 - INFO - Url: cybriant.com | Result: 25% Pbn
+2023-11-14 20:00:34,398 - INFO - cymune.com
+2023-11-14 20:00:58,011 - INFO - Saas: service Url: https://www.cymune.com/data-protection-services
+2023-11-14 20:00:58,050 - INFO - Saas: solution Url: https://www.cymune.com/xdr-solutions
+2023-11-14 20:00:58,463 - INFO - Url: cymune.com | Result: 50% Saas
+2023-11-14 20:00:59,493 - INFO - davidhoward.co.uk
+2023-11-14 20:01:05,941 - INFO - Url: davidhoward.co.uk | Result: Esim
+2023-11-14 20:01:06,972 - INFO - deliverycircle.com
+2023-11-14 20:05:11,294 - INFO - Url: deliverycircle.com | Result: Esim
+2023-11-14 20:05:12,322 - INFO - designdistributors.com
+2023-11-14 20:09:14,393 - INFO - digitalcrew.com.au
+2023-11-14 20:09:19,339 - INFO - Url: digitalcrew.com.au | Result: Esim
+2023-11-14 20:09:20,411 - INFO - diro.io
+2023-11-14 20:09:22,357 - INFO - Saas: pricing Url: https://diro.io/pricing/
+2023-11-14 20:09:22,427 - INFO - Saas: product Url: https://diro.io/products/bank-account-verification/
+2023-11-14 20:09:22,570 - INFO - Saas: company Url: https://diro.io/company/
+2023-11-14 20:09:22,752 - INFO - Url: diro.io | Result: 100% Saas
+2023-11-14 20:09:23,780 - INFO - dlt.com
+2023-11-14 20:11:54,761 - INFO - dotactiv.com
+2023-11-14 20:16:30,032 - INFO - dreamforweb.com
+2023-11-14 20:18:47,737 - INFO - Url: dreamforweb.com | Result: Esim
+2023-11-14 20:18:48,765 - INFO - dustinstout.com
+2023-11-14 20:18:51,652 - INFO - eazystock.com
+2023-11-14 20:18:54,669 - INFO - Url: eazystock.com | Result: Esim
+2023-11-14 20:18:55,703 - INFO - entitledarts.com
+2023-11-14 20:18:59,847 - INFO - Url: entitledarts.com | Result: Esim
+2023-11-14 20:19:00,875 - INFO - erudite.agency
+2023-11-14 20:23:02,963 - INFO - Url: erudite.agency | Result: Esim
+2023-11-14 20:23:03,991 - INFO - esmgrp.com
+2023-11-14 20:28:05,010 - INFO - espresa.com
+2023-11-14 20:28:13,760 - INFO - Saas: product Url: https://www.espresa.com/product/lifestyle-spending-account/
+2023-11-14 20:28:14,007 - INFO - Pdb: lifestyle Url: https://www.espresa.com/product/lifestyle-spending-account/
+2023-11-14 20:28:14,105 - INFO - Url: espresa.com | Result: Esim
+2023-11-14 20:28:15,131 - INFO - esriuk.com
+2023-11-14 20:28:21,577 - INFO - Saas: product Url: https://www.esriuk.com/en-gb/arcgis/products/arcgis-developers/overview
+2023-11-14 20:28:21,615 - INFO - Saas: builder Url: https://www.esriuk.com/en-gb/arcgis/products/app-builders/overview
+2023-11-14 20:28:21,689 - INFO - Pdb: magazine Url: https://resource.esriuk.com/publications/wherenextmagazine
+2023-11-14 20:28:21,707 - INFO - Pdb: news Url: https://resource.esriuk.com/news
+2023-11-14 20:28:21,726 - INFO - Pdb: health Url: https://www.esriuk.com/en-gb/industries/health/overview
+2023-11-14 20:28:21,855 - INFO - Pdb: legal Url: https://www.esriuk.com/en-gb/legal/gdpr/about
+2023-11-14 20:28:21,885 - INFO - Pdb: school Url: https://www.esriuk.com/en-gb/industries/education/schools
+2023-11-14 20:28:21,905 - INFO - Url: esriuk.com | Result: 25% Pbn
+2023-11-14 20:28:22,932 - INFO - etchasoft.com
+2023-11-14 20:28:37,879 - INFO - Saas: software Url: https://etchasoft.com/what-we-do/custom-software-development/
+2023-11-14 20:28:38,341 - INFO - Url: etchasoft.com | Result: 25% Saas
+2023-11-14 20:28:39,396 - INFO - eventige.com
+2023-11-14 20:28:48,583 - INFO - everexinfotech.com
+2023-11-14 20:28:53,009 - INFO - Saas: software Url: https://everexinfotech.com/products-details/export-documentation-management-software-India
+2023-11-14 20:28:53,055 - INFO - Saas: service Url: https://everexinfotech.com/products-details/after-sales-service-management-software
+2023-11-14 20:28:53,112 - INFO - Saas: solution Url: https://everexinfotech.com/services-details/cloud-solutions-services
+2023-11-14 20:28:53,182 - INFO - Saas: product Url: https://everexinfotech.com/products-details/export-documentation-management-software-India
+2023-11-14 20:28:53,250 - INFO - Saas: tracker Url: https://everexinfotech.com/products-details/Sales-Lead-Tracker-sales-tracker
+2023-11-14 20:28:53,521 - INFO - Url: everexinfotech.com | Result: 100% Saas
+2023-11-14 20:28:54,551 - INFO - evocon.com
+2023-11-14 20:33:55,563 - INFO - exclaimer.com
+2023-11-14 20:34:05,159 - INFO - Saas: service Url: https://exclaimer.com/en/blog/exploring-innovations-in-it-services-for-2024/
+2023-11-14 20:34:05,198 - INFO - Saas: pricing Url: https://exclaimer.com/pricing/
+2023-11-14 20:34:05,262 - INFO - Saas: product Url: https://exclaimer.com/product/email-signature-management/
+2023-11-14 20:34:05,342 - INFO - Saas: company Url: https://exclaimer.com/company/contact-us/
+2023-11-14 20:34:05,513 - INFO - Pdb: legal Url: https://exclaimer.com/legal/
+2023-11-14 20:34:05,557 - INFO - Url: exclaimer.com | Result: 50% Saas
+2023-11-14 20:34:06,612 - INFO - experian.com.au
+2023-11-14 20:34:16,796 - INFO - Saas: service Url: https://www.experian.com.au/business/solutions/credit-services
+2023-11-14 20:34:16,852 - INFO - Saas: solution Url: https://www.experian.com.au/business/solutions/credit-services
+2023-11-14 20:34:16,903 - INFO - Saas: product Url: https://www.experian.com.au/business/solutions/data-quality/data-quality-products
+2023-11-14 20:34:17,170 - INFO - Url: experian.com.au | Result: 100% Saas
+2023-11-14 20:34:18,198 - INFO - ezypay.com
+2023-11-14 20:42:22,810 - INFO - Url: ezypay.com | Result: Esim
+2023-11-14 20:42:23,843 - INFO - finfolio.com
+2023-11-14 20:42:25,845 - INFO - fxinnovation.com
+2023-11-14 20:43:01,757 - INFO - Saas: service Url: https://www.fxinnovation.com/business-solutions/servicenow/
+2023-11-14 20:43:01,803 - INFO - Saas: solution Url: https://www.fxinnovation.com/business-solutions/
+2023-11-14 20:43:02,066 - INFO - Pdb: review Url: https://www.fxinnovation.com/business-solutions/cloud/review/
+2023-11-14 20:43:02,115 - INFO - Url: fxinnovation.com | Result: 25% Saas
+2023-11-14 20:43:03,142 - INFO - gamemarketinggenie.com
+2023-11-14 20:47:04,936 - INFO - Url: gamemarketinggenie.com | Result: Esim
+2023-11-14 20:47:05,963 - INFO - gavant.com
+2023-11-14 20:52:06,976 - INFO - getafixtechnologies.com
+2023-11-14 20:52:08,890 - INFO - Url: getafixtechnologies.com | Result: Esim
+2023-11-14 20:52:09,918 - INFO - getid.com
+2023-11-14 20:57:10,938 - INFO - getuku.com
+2023-11-14 21:01:40,260 - INFO - grapestechsolutions.com
+2023-11-14 21:04:07,008 - INFO - Saas: software Url: https://www.grapestechsolutions.com/blog/software-development-models/
+2023-11-14 21:04:07,054 - INFO - Saas: service Url: https://www.grapestechsolutions.com/services/
+2023-11-14 21:04:07,163 - INFO - Saas: solution Url: https://www.grapestechsolutions.com/wp-content/themes/grapestech/assets/css/all.css
+2023-11-14 21:04:07,872 - INFO - Pdb: health Url: https://www.grapestechsolutions.com/industries/healthcare/
+2023-11-14 21:04:08,042 - INFO - Url: grapestechsolutions.com | Result: 50% Saas
+2023-11-14 21:04:09,069 - INFO - graphicszoo.com
+2023-11-14 21:04:27,812 - INFO - Saas: service Url: https://www.graphicszoo.com/graphic-design-services
+2023-11-14 21:04:28,235 - INFO - Url: graphicszoo.com | Result: 25% Saas
+2023-11-14 21:04:29,263 - INFO - greenstoneplus.com
+2023-11-14 21:04:31,266 - INFO - Url: greenstoneplus.com | Result: Esim
+2023-11-14 21:04:32,303 - INFO - heretto.com
+2023-11-14 21:04:37,076 - INFO - hi-texsolutions.com
+2023-11-14 21:05:09,178 - INFO - Saas: service Url: https://hi-texsolutions.com/it-services/
+2023-11-14 21:05:09,232 - INFO - Saas: solution Url: https://hi-texsolutions.com/xmlrpc.php
+2023-11-14 21:05:09,282 - INFO - Saas: product Url: https://hi-texsolutions.com/products/hosted-pbx-voip/
+2023-11-14 21:05:09,311 - INFO - Saas: builder Url: https://hi-texsolutions.com/wp-content/plugins/divi-builder/css/style-static.min.css?ver=4.21.0
+2023-11-14 21:05:09,405 - INFO - Pdb: health Url: https://hi-texsolutions.com/security-and-compliance/it-for-healthcare-providers/
+2023-11-14 21:05:09,554 - INFO - Pdb: review Url: https://hi-texsolutions.com/wp-content/plugins/google-reviews-business/static/css/google-review.css?ver=7f51b54a3fc05c25effb04f483552de7
+2023-11-14 21:05:09,582 - INFO - Pdb: legal Url: https://hi-texsolutions.com/it-services/legal-it-support/
+2023-11-14 21:05:09,694 - INFO - Url: hi-texsolutions.com | Result: Esim
+2023-11-14 21:05:10,726 - INFO - hotelogix.com
+2023-11-15 12:07:24,260 - INFO - Script started.
+2023-11-15 12:07:26,035 - INFO - cavuhcm.com
+2023-11-15 12:07:28,964 - INFO - clearrisk.com
+2023-11-15 12:07:30,976 - INFO - cyberclick.net
+2023-11-15 12:12:32,015 - INFO - designdistributors.com
+2023-11-15 12:12:34,039 - INFO - dlt.com
+2023-11-15 12:12:40,575 - INFO - Saas: software Url: https://www.dlt.com/government-products/bmc-software
+2023-11-15 12:12:40,599 - INFO - Saas: platform Url: https://www.dlt.com/services/enterprise-agreement-platform
+2023-11-15 12:12:40,619 - INFO - Saas: service Url: https://www.dlt.com/services
+2023-11-15 12:12:40,672 - INFO - Saas: solution Url: https://www.dlt.com/government-solutions/application-lifecycle
+2023-11-15 12:12:40,726 - INFO - Saas: product Url: https://www.dlt.com/government-products
+2023-11-15 12:12:40,864 - INFO - Pdb: news Url: https://www.dlt.com/news
+2023-11-15 12:12:41,052 - INFO - Url: dlt.com | Result: 50% Saas
+2023-11-15 12:12:42,084 - INFO - dotactiv.com
+2023-11-15 12:17:43,106 - INFO - dustinstout.com
+2023-11-15 12:17:47,124 - INFO - Saas: tool Url: https://dustinstout.com/toolbox/
+2023-11-15 12:17:47,336 - INFO - Pdb: news Url: https://dustinstout.com/newsletter/
+2023-11-15 12:17:47,504 - INFO - Url: dustinstout.com | Result: Esim
+2023-11-15 12:17:48,544 - INFO - esmgrp.com
+2023-11-15 12:21:50,179 - INFO - Url: esmgrp.com | Result: Esim
+2023-11-15 12:21:51,212 - INFO - eventige.com
+2023-11-15 12:25:53,574 - INFO - evocon.com
+2023-11-15 12:26:17,032 - INFO - Saas: software Url: https://evocon.com/oee-software/
+2023-11-15 12:26:17,064 - INFO - Saas: service Url: https://evocon.com/learn/service-overview/
+2023-11-15 12:26:17,099 - INFO - Saas: pricing Url: https://evocon.com/pricing/
+2023-11-15 12:26:17,201 - INFO - Saas: product Url: https://evocon.com/learn/increasing-productivity/
+2023-11-15 12:26:17,811 - INFO - Url: evocon.com | Result: 100% Saas
+2023-11-15 12:26:18,846 - INFO - finfolio.com
+2023-11-15 12:26:22,082 - INFO - gavant.com
+2023-11-15 12:31:23,105 - INFO - getid.com
+2023-11-15 12:32:00,139 - INFO - Saas: pricing Url: https://getid.com/pricing/
+2023-11-15 12:32:00,162 - INFO - Saas: solution Url: https://getid.com/solutions/aml-and-kyc-compliance/
+2023-11-15 12:32:00,215 - INFO - Saas: product Url: https://getid.com/industries/age-restricted-products/
+2023-11-15 12:32:00,244 - INFO - Saas: builder Url: https://getid.com/solutions/kyc-flow-builder/
+2023-11-15 12:32:00,345 - INFO - Pdb: health Url: https://getid.com/industries/online-healthcare-telemedicine/
+2023-11-15 12:32:00,385 - INFO - Pdb: casino Url: https://getid.com/industries/online-casinos/
+2023-11-15 12:32:00,517 - INFO - Url: getid.com | Result: 25% Saas
+2023-11-15 12:32:01,547 - INFO - getuku.com
+2023-11-15 12:32:03,324 - INFO - Saas: software Url: https://getuku.com/accounting-practice-management-software
+2023-11-15 12:32:03,359 - INFO - Saas: service Url: https://getuku.com/services
+2023-11-15 12:32:03,392 - INFO - Saas: pricing Url: https://getuku.com/pricing
+2023-11-15 12:32:03,517 - INFO - Saas: builder Url: https://getuku.com/wp-content/plugins/elementor-pro/assets/css/widget-loop-builder.min.css
+2023-11-15 12:32:03,806 - INFO - Url: getuku.com | Result: 100% Saas
+2023-11-15 12:32:04,846 - INFO - heretto.com
+2023-11-15 12:32:09,175 - INFO - hotelogix.com
+2023-11-15 12:54:57,254 - INFO - hotwireglobal.com.au
+2023-11-15 12:54:58,287 - INFO - https://infoset.app/
+2023-11-15 12:54:59,300 - INFO - i7marketing.com
+2023-11-15 12:55:00,312 - INFO - icumulus.com.au
+2023-11-15 12:55:01,346 - INFO - invoicesimple.com
+2023-11-15 12:55:02,377 - INFO - jolt.com
+2023-11-15 12:55:03,398 - INFO - kudoscube.com
+2023-11-15 12:55:04,411 - INFO - landscapeleadership.com
+2023-11-15 12:55:05,434 - INFO - leeshanok.com
+2023-11-15 12:55:06,456 - INFO - lexingtonsoft.com
+2023-11-15 12:55:07,487 - INFO - livecareer.com
+2023-11-15 12:55:08,512 - INFO - logicloopdigital.com
+2023-11-15 12:55:09,527 - INFO - lusha.com
+2023-11-15 12:55:10,537 - INFO - managedservicesit.com
+2023-11-15 12:55:11,546 - INFO - marrinadecisions.com
+2023-11-15 12:55:12,555 - INFO - maventm.com
+2023-11-15 12:55:13,571 - INFO - metricfox.com
+2023-11-15 12:55:14,597 - INFO - mindinventory.com
+2023-11-15 12:55:15,607 - INFO - mindtitan.com
+2023-11-15 12:55:16,624 - INFO - missionsecure.com
+2023-11-15 12:55:17,667 - INFO - ngtsol.com
+2023-11-15 12:55:18,672 - INFO - nintriva.com
+2023-11-15 12:55:19,682 - INFO - nuxeo.com
+2023-11-15 12:55:20,690 - INFO - oasisgroup.com
+2023-11-15 12:55:21,699 - INFO - ogd-solutions.com
+2023-11-15 12:55:22,711 - INFO - openlegacy.com
+2023-11-15 12:55:23,733 - INFO - opentext.nl
+2023-11-15 12:55:24,755 - INFO - optimalworkshop.com
+2023-11-15 12:55:25,789 - INFO - paperflite.com
+2023-11-15 12:55:26,824 - INFO - perituza.com
+2023-11-15 12:55:27,858 - INFO - postalytics.com
+2023-11-15 12:55:28,886 - INFO - prism-me.com
+2023-11-15 12:55:29,908 - INFO - qmatic.com
+2023-11-15 12:55:30,935 - INFO - reapit.com
+2023-11-15 12:55:31,962 - INFO - reliascent.com
+2023-11-15 12:55:32,971 - INFO - rewardian.com
+2023-11-15 12:55:33,983 - INFO - risklens.com
+2023-11-15 12:55:34,989 - INFO - rockdovesolutions.com
+2023-11-15 12:55:36,022 - INFO - sagesoftware.co.in
+2023-11-15 12:55:37,036 - INFO - samarpaninfotech.com
+2023-11-15 12:55:38,048 - INFO - semaphore-software.com
+2023-11-15 12:55:39,071 - INFO - sensegroup.com.au
+2023-11-15 12:55:40,086 - INFO - seozoom.com
+2023-11-15 12:55:41,106 - INFO - simplelogic.in
+2023-11-15 12:55:42,119 - INFO - skyboxsecurity.com
+2023-11-15 12:55:43,146 - INFO - spadetechnology.com
+2023-11-15 12:55:44,157 - INFO - sphinx-solution.com
+2023-11-15 12:55:45,172 - INFO - sstechsystem.com
+2023-11-15 12:55:46,193 - INFO - storytellermn.com
+2023-11-15 12:55:47,212 - INFO - sunrisesoftware.com
+2023-11-15 12:55:48,234 - INFO - symtrax.com
+2023-11-15 12:55:49,250 - INFO - taylor.com
+2023-11-15 12:55:50,264 - INFO - telecomsworld.com
+2023-11-15 12:55:51,275 - INFO - telelogos.com
+2023-11-15 12:55:52,289 - INFO - testgrid.io
+2023-11-15 12:55:53,302 - INFO - textlocal.com
+2023-11-15 12:55:54,308 - INFO - theadroit.in
+2023-11-15 12:55:55,343 - INFO - threatscape.com
+2023-11-15 12:55:56,368 - INFO - trivialworks.com
+2023-11-15 12:55:57,385 - INFO - turningcloud.com
+2023-11-15 12:55:58,400 - INFO - twoturtledoves.com.au
+2023-11-15 12:55:59,413 - INFO - tye.io
+2023-11-15 12:56:00,422 - INFO - typsy.com
+2023-11-15 12:56:01,433 - INFO - upshot.ai
+2023-11-15 12:56:02,456 - INFO - v2sa.com
+2023-11-15 12:56:03,488 - INFO - webjaguar.com
+2023-11-15 12:56:04,505 - INFO - westagilelabs.com
+2023-11-15 12:56:05,513 - INFO - whitehat-seo.co.uk
+2023-11-15 12:56:06,544 - INFO - nan
+2023-11-15 12:56:07,556 - INFO - co.uk
+2023-11-15 12:56:08,566 - INFO - wixsite.com
+2023-11-15 12:56:09,575 - INFO - Bradley
+2023-11-15 12:56:10,588 - INFO - bls.gov
+2023-11-15 12:56:11,600 - INFO - hbs.edu
+2023-11-15 12:56:12,620 - INFO - com.au
+2023-11-15 12:56:13,644 - INFO - v
+2023-11-15 12:56:14,648 - INFO - pixlscapes.com
+2023-11-15 12:56:15,656 - INFO - internetretailer.com
+2023-11-15 12:56:16,668 - INFO - emarsys.com
+2023-11-15 12:56:17,681 - INFO - iss247.com
+2023-11-15 12:56:18,694 - INFO - delta.com
+2023-11-15 12:56:19,706 - INFO - smushit.com
+2023-11-15 12:56:20,736 - INFO - bioarkive.com
+2023-11-15 12:56:21,749 - INFO - hrpartner.io
+2023-11-15 12:56:22,758 - INFO - aviationgin.com
+2023-11-15 12:56:23,767 - INFO - jacquemus.com
+2023-11-15 12:56:24,790 - INFO - orlebarbrown.com
+2023-11-15 12:56:25,811 - INFO - rolexmagazine.com
+2023-11-15 12:56:26,819 - INFO - 360cloudapps.com
+2023-11-15 12:56:27,827 - INFO - com.my
+2023-11-15 12:56:28,834 - INFO - gov.my
+2023-11-15 12:56:29,855 - INFO - hotels.com
+2023-11-15 12:56:30,875 - INFO - hsforms.com
+2023-11-15 12:56:31,897 - INFO - aidcoin.co
+2023-11-15 12:56:32,914 - INFO - blockverify.io
+2023-11-15 12:56:33,930 - INFO - nasdaq.com
+2023-11-15 12:56:34,952 - INFO - dsmtool.com
+2023-11-15 12:56:35,967 - INFO - meetcortex.com
+2023-11-15 12:56:36,988 - INFO - www,edx.org
+2023-11-15 12:56:38,001 - INFO - licdn.com
+2023-11-15 12:56:39,018 - INFO - bizbashlive.com
+2023-11-15 12:56:40,038 - INFO - olympics.com
+2023-11-15 12:56:41,059 - INFO - bizbash.com
+2023-11-15 12:56:42,075 - INFO - un.org
+2023-11-15 12:56:43,087 - INFO - blerter.com
+2023-11-15 12:56:44,104 - INFO - beaconlive.com
+2023-11-15 12:56:45,113 - INFO - eventimpacts.com
+2023-11-15 12:56:46,124 - INFO - theworldcounts.com
+2023-11-15 12:56:47,141 - INFO - focusvision.com
+2023-11-15 12:56:48,151 - INFO - marketo.com
+2023-11-15 12:56:49,174 - INFO - co.in
+2023-11-15 12:56:50,183 - INFO - 7baots.com
+2023-11-15 12:56:51,203 - INFO - coupang.com
+2023-11-15 12:56:52,221 - INFO - calcalistech.com
+2023-11-15 12:56:53,238 - INFO - cnbctv18.com
+2023-11-15 12:56:54,258 - INFO - co.jp
+2023-11-15 12:56:55,268 - INFO - emarketer.com
+2023-11-15 12:56:56,280 - INFO - smartercx.com
+2023-11-15 12:56:57,289 - INFO - selenium-rc.openqa.org
+2023-11-15 12:56:58,299 - INFO - supplygrocery.com
+2023-11-15 12:56:59,310 - INFO - paisaybachao.pk
+2023-11-15 12:57:00,328 - INFO - com.pk
+2023-11-15 12:57:01,339 - INFO - pos4opencart.com
+2023-11-15 12:57:02,350 - INFO - payless.pk
+2023-11-15 12:57:03,366 - INFO - simpletest.org
+2023-11-15 12:57:04,383 - INFO - discountland.pk
+2023-11-15 12:57:05,392 - INFO - jambo.pk
+2023-11-15 12:57:06,398 - INFO - shikasharma.com
+2023-11-15 12:57:07,405 - INFO - cips.org
+2023-11-15 12:57:08,417 - INFO - weltpixel.com
+2023-11-15 12:57:09,429 - INFO - com.uy
+2023-11-15 12:57:10,440 - INFO - feedspot.com
+2023-11-15 12:57:11,452 - INFO - org.uy
+2023-11-15 12:57:12,461 - INFO - nhpr.org
+2023-11-15 12:57:13,473 - INFO - eugdpr.org
+2023-11-15 12:57:14,483 - INFO - e61c88871f1fbaa6388d-c1e3bb10b0333d7ff7aa972d61f8c669.r29.rackcdn.com
+2023-11-15 12:57:15,501 - INFO - digitaltrainingacademy.com
+2023-11-15 12:57:16,512 - INFO - graze.com
+2023-11-15 12:57:17,522 - INFO - johnlewis.com
+2023-11-15 12:57:18,534 - INFO - jimmychoo.com
+2023-11-15 12:57:19,546 - INFO - evanmiller.org
+2023-11-15 12:57:20,565 - INFO - allovoisins.com
+2023-11-15 12:57:21,576 - INFO - asos.com
+2023-11-15 12:57:22,584 - INFO - sephora.com
+2023-11-15 12:57:23,603 - INFO - sportstradingnetwork.com
+2023-11-15 12:57:24,615 - INFO - newkajabi.com
+2023-11-15 12:57:25,621 - INFO - adidas.com
+2023-11-15 12:57:26,631 - INFO - ss.uci.edu
+2023-11-15 12:57:27,641 - INFO - emailmarketinggold.com
+2023-11-15 12:57:28,656 - INFO - walmart.com
+2023-11-15 12:57:29,662 - INFO - capitatranslationinterpreting.com
+2023-11-15 12:57:30,667 - INFO - behave.org
+2023-11-15 12:57:31,672 - INFO - missguided.eu
+2023-11-15 12:57:32,683 - INFO - protocol80.com
+2023-11-15 12:57:33,695 - INFO - ruddcenter.uconn.edu
+2023-11-15 12:57:34,707 - INFO - vawizard.org
+2023-11-15 12:57:35,723 - INFO - forbesindia.com
+2023-11-15 12:57:36,735 - INFO - waldenu.edu
+2023-11-15 12:57:37,741 - INFO - sjv.io
+2023-11-15 12:57:38,755 - INFO - canada.ca
+2023-11-15 12:57:39,767 - INFO - chewy.com
+2023-11-15 12:57:40,777 - INFO - careeronestop.org
+2023-11-15 12:57:41,781 - INFO - jumplead.com
+2023-11-15 12:57:42,801 - INFO - internhq.com
+2023-11-15 12:57:43,815 - INFO - gc.ca
+2023-11-15 12:57:44,832 - INFO - fs1.hubspotusercontent-na1.net
+2023-11-15 12:57:45,851 - INFO - cisco.com
+2023-11-15 12:57:46,861 - INFO - csimarket.com
+2023-11-15 12:57:47,870 - INFO - xively.com
+2023-11-15 12:57:48,880 - INFO - base36.com
+2023-11-15 12:57:49,890 - INFO - aicpa.org
+2023-11-15 12:57:50,897 - INFO - mindflexconference.com
+2023-11-15 12:57:51,909 - INFO - lizkingevents.com
+2023-11-15 12:57:52,922 - INFO - informa.com
+2023-11-15 12:57:53,934 - INFO - ac.uk
+2023-11-15 12:57:54,944 - INFO - extraordinaryeventsinitiative.com
+2023-11-15 12:57:55,964 - INFO - visualeyes.design
+2023-11-15 12:57:56,978 - INFO - theeventspodcast.com
+2023-11-15 12:57:57,987 - INFO - innosight.com
+2023-11-15 12:57:59,007 - INFO - medill.northwestern.edu
+2023-11-15 12:58:00,025 - INFO - cloudfront.net
+2023-11-15 12:58:01,043 - INFO - com.tw
+2023-11-15 12:58:02,063 - INFO - awsstatic.com
+2023-11-15 12:58:03,080 - INFO - amazonaws.com
+2023-11-15 12:58:04,090 - INFO - acornfinance.com
+2023-11-15 12:58:05,104 - INFO - cision.com
+2023-11-15 12:58:06,110 - INFO - contractorconnection.com
+2023-11-15 12:58:07,117 - INFO - distilled.net
+2023-11-15 12:58:08,125 - INFO - materialup.com
+2023-11-15 12:58:09,135 - INFO - accu15.com
+2023-11-15 12:58:10,146 - INFO - greghickman.com
+2023-11-15 12:58:11,157 - INFO - citrix.com
+2023-11-15 12:58:12,168 - INFO - imaconference.org
+2023-11-15 12:58:13,178 - INFO - aicpa-cima.com
+2023-11-15 12:58:14,188 - INFO - whatmatrix.com
+2023-11-15 12:58:15,201 - INFO - com.hk
+2023-11-15 12:58:16,206 - INFO - veritis.com
+2023-11-15 12:58:17,218 - INFO - od.ua
+2023-11-15 12:58:18,232 - INFO - gucci.com
+2023-11-15 12:58:19,245 - INFO - ahs.com
+2023-11-15 12:58:20,250 - INFO - paystreamadvisors.com
+2023-11-15 12:58:21,263 - INFO - signalgenesys.io
+2023-11-15 12:58:22,282 - INFO - cocoamanifest.net
+2023-11-15 12:58:23,294 - INFO - clariontech.com
+2023-11-15 12:58:24,304 - INFO - phonegap.com
+2023-11-15 12:58:25,321 - INFO - reallect.com
+2023-11-15 12:58:26,335 - INFO - ubereats.com
+2023-11-15 12:58:27,354 - INFO - remax.in
+2023-11-15 12:58:28,371 - INFO - appcelerator.com
+2023-11-15 12:58:29,379 - INFO - marketingaiinstitute.com
+2023-11-15 12:58:30,395 - INFO - sephoravirtualartist.com
+2023-11-15 12:58:31,404 - INFO - martechalliance.com
+2023-11-15 12:58:32,419 - INFO - klm.com
+2023-11-15 12:58:33,431 - INFO - co.za
+2023-11-15 12:58:34,445 - INFO - risecredit.com
+2023-11-15 12:58:35,449 - INFO - briantracy.com
+2023-11-15 12:58:36,464 - INFO - ucf.edu
+2023-11-15 12:58:37,477 - INFO - thecontentwrangler.com
+2023-11-15 12:58:38,482 - INFO - org.uk
+2023-11-15 12:58:39,487 - INFO - meanpeoplesuck.com
+2023-11-15 12:58:40,502 - INFO - hpe.com
+2023-11-15 12:58:41,507 - INFO - mikevolpe.com
+2023-11-15 12:58:42,520 - INFO - net.ua
+2023-11-15 12:58:43,539 - INFO - reactmobile.com
+2023-11-15 12:58:44,550 - INFO - htng.org
+2023-11-15 12:58:45,558 - INFO - hotelflex.io
+2023-11-15 12:58:46,570 - INFO - biakelsey.com
+2023-11-15 12:58:47,575 - INFO - atairbnb.com
+2023-11-15 12:58:48,579 - INFO - osd.mil
+2023-11-15 12:58:49,587 - INFO - action-pay.com
+2023-11-15 12:58:50,592 - INFO - crosscountrymarketplace.com
+2023-11-15 12:58:51,597 - INFO - stitcher.com
+2023-11-15 12:58:52,601 - INFO - whostalkin.com
+2023-11-15 12:58:53,605 - INFO - com.cn
