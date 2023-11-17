@@ -111,6 +111,9 @@ def reformat_csv(file_path: str):
     new_fra.to_csv(config.local.csv_file_dir, index=False)
 
 
+reformat_csv("result.csv")
+
+
 def main():
     # Configure the logging module
     log_file_path = "./logs.txt"
@@ -157,6 +160,3 @@ def main():
                     file_path=config.local.csv_file_dir)
             except Exception as e:
                 print(e)
-
-
-main()

@@ -6,7 +6,7 @@ from pydantic import BaseModel
 class Local(BaseModel):
     driver_dir_lin: str = "./chromedriver"
     driver_dir_win: str = "./chromedriver.exe"
-    csv_file_dir: str = "./links.csv"
+    csv_file_dir: str = "links.csv"
 
     @property
     def driver_dir(self) -> str:

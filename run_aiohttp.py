@@ -10,9 +10,14 @@ from datetime import datetime
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
+
 async def fetch(url, session):
-    async with session.get(url) as response:
+    headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+    await asyncio.sleep(random.uniform(0, 2))
+    async with session.get(url, headers=headers) as response:
         return await response.text()
+
 
 def parse_html(html, domain, saas_words, pbn_words, result, file_path):
     saas_count = 0
@@ -54,6 +59,7 @@ def parse_html(html, domain, saas_words, pbn_words, result, file_path):
         df.loc[df['url'] == domain, 'checked'] = True
     df.to_csv(file_path, index=False)
 
+
 async def process_url(url, domain, saas_words, pbn_words, result, file_path, session):
     try:
         await asyncio.sleep(2)
@@ -61,6 +67,7 @@ async def process_url(url, domain, saas_words, pbn_words, result, file_path, ses
         parse_html(html, domain, saas_words, pbn_words, result, file_path)
     except Exception as e:
         logging.error(f"Error processing URL {url}: {e}")
+
 
 async def main():
     pbn_words = ['magazine', 'news', 'health', 'mum', 'fashion',
@@ -93,15 +100,17 @@ async def main():
             checked = row['checked']
             if not checked:
                 logging.info(url)
-                tasks.append(process_url(url, str(row['url']), saas_words, pbn_words, result, csv_file_path, session))
-        await asyncio.gather(*tasks)
+                await process_url(url, str(row['url']), saas_words, pbn_words, result, csv_file_path, session)
+                # tasks.append(process_url(url, str(row['url']), saas_words, pbn_words, result, csv_file_path, session))
+        # await asyncio.gather(*tasks)
+
 
 if __name__ == "__main__":
     try:
         df = pd.read_csv(config.local.csv_file_dir)
         checked_count = df[df['checked'] == True].shape[0]
         logging.info("Start checking")
-        now = datetime.now()        
+        now = datetime.now()
         asyncio.run(main())
     except KeyboardInterrupt:
         end = datetime.now()
