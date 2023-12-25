@@ -1,121 +1,124 @@
-import aiohttp
 import asyncio
-from bs4 import BeautifulSoup
-import logging
+from src.saas_finder import SaasFinder
 import pandas as pd
-import time
-from config import config
-from datetime import datetime
+import aiohttp
+
+MAX_CONCURRENT_TASKS = 10  # Maximum number of concurrent tasks
+PBD_WORDS = [
+    "magazine",
+    "news",
+    "health",
+    "fashion",
+    "lifestyle",
+    "cbd",
+    "gambling",
+    "food",
+    "review",
+    "reviews",
+    "legal",
+    "university",
+    "school",
+    "travel",
+    "medical",
+    "casino",
+    "business",
+    "education",
+    "entertainment",
+    "technology",
+    "technologies",
+    "biography",
+    "fashion",
+    "automotive",
+    "celebrity",
+    "celebrities",
+    "music",
+    "finance",
+    "finances",
+    "net worth",
+    "stories",
+    "law",
+    "real estate",
+    "kitchen",
+    "construction",
+    "life style",
+    "tech",
+    "daily",
+    "shop",
+    "store",
+]
+
+SAAS_WORDS = [
+    "software",
+    "platform",
+    "service",
+    "services",
+    "tool",
+    "tools",
+    "solution",
+    "solutions",
+    "maker",
+    "generator",
+    "creator",
+    "builder",
+    "finder",
+    "tracker",
+    "agency",
+    "company",
+    "pricing",
+    "what we do",
+]
 
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+async def collect_data(file_path: str, batch_size: int):
+    df = pd.read_csv(
+        "./data/input/saas_checker_input.csv", index_col=False, encoding="utf-8"
+    )
+    urls_stack = [
+        row.get("domain")
+        for _, row in df.iterrows()
+        if pd.isna(row.get("checked"))
+        or row.get("checked") == ""
+        or row.get("checked") != True
+    ]
+
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT_TASKS)
+    # Process URLs in batches
+    for i in range(0, len(urls_stack), batch_size):
+        print(i, i + batch_size)
+        batch = urls_stack[i : i + batch_size]
+        await run(batch, file_path, semaphore)
 
 
-async def fetch(url, session):
-    headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    await asyncio.sleep(random.uniform(0, 2))
-    async with session.get(url, headers=headers) as response:
-        return await response.text()
+async def process_single_url(domain, file_path: str, semaphore: asyncio.Semaphore):
+    async with semaphore:
+        try:
+            async with aiohttp.ClientSession() as session:
+                saas_cheaker = SaasFinder(
+                    domain=domain,
+                    saas_words=SAAS_WORDS,
+                    pbn_words=PBD_WORDS,
+                    file_path=file_path,
+                    session=session,
+                )
+                await saas_cheaker.run()
+        except Exception as e:
+            print(e)
+        finally:
+            return True
 
 
-def parse_html(html, domain, saas_words, pbn_words, result, file_path):
-    saas_count = 0
-    pbn_count = 0
-
-    soup = BeautifulSoup(html, 'html.parser')
-
-    for word in saas_words:
-        elements = soup.find_all(href=lambda x: x and word in x.lower() and '/' in x)
-        for element in elements:
-            href = element.get('href', '')
-            if domain in href or "http" not in href:
-                if "image/base" not in href and len(href) < 300:
-                    logging.info(f"Saas: {word} Url: {href}")
-                    saas_count += 1
-                    break
-
-    for word in pbn_words:
-        elements = soup.find_all(href=lambda x: x and word in x.lower() and '/' in x)
-        for element in elements:
-            href = element.get('href', '')
-            if domain in href or "http" not in href:
-                if "image/base" not in href and len(href) < 300:
-                    logging.info(f"Pdb: {word} Url: {href}")
-                    pbn_count += 1
-                    break
-
-    if saas_count > 3:
-        saas_count = 3
-    if pbn_count > 3:
-        pbn_count = 3
-    jk = saas_count - pbn_count
-    logging.info(f"Url: {domain} | Result: {result.get(jk)}")
-
-    df = pd.read_csv(file_path)
-    target_row = df[df['url'] == domain]
-    if not target_row.empty:
-        df.loc[df['url'] == domain, 'result'] = result.get(jk)
-        df.loc[df['url'] == domain, 'checked'] = True
-    df.to_csv(file_path, index=False)
-
-
-async def process_url(url, domain, saas_words, pbn_words, result, file_path, session):
-    try:
-        await asyncio.sleep(2)
-        html = await fetch(url, session)
-        parse_html(html, domain, saas_words, pbn_words, result, file_path)
-    except Exception as e:
-        logging.error(f"Error processing URL {url}: {e}")
-
-
-async def main():
-    pbn_words = ['magazine', 'news', 'health', 'mum', 'fashion',
-                 'casino', 'daily', 'lifestyle', 'cbd', 'gamb',
-                 'food', 'gambling', 'review', 'legal', 'university',
-                 'school', 'travel', 'medical']
-
-    saas_words = ['software', 'platform', 'service', 'tool', 'pricing',
-                  'solution', 'maker', 'generator', 'creator', 'product',
-                  'price', 'builder', 'finder', 'tracker', 'agency',
-                  'company']
-    result = {
-        0: "Esim",
-        3: "100% Saas",
-        -3: "100% Pbn",
-        1: "25% Saas",
-        -1: "25% Pbn",
-        2: "50% Saas",
-        -2: "50% Pbn"
-    }
-
-    csv_file_path = config.local.csv_file_dir
-    df = pd.read_csv(csv_file_path)
-
-    async with aiohttp.ClientSession() as session:
-        tasks = []
-        count = 0
-        for index, row in df.iterrows():
-            url = "https://" + str(row['url'])
-            checked = row['checked']
-            if not checked:
-                logging.info(url)
-                await process_url(url, str(row['url']), saas_words, pbn_words, result, csv_file_path, session)
-                # tasks.append(process_url(url, str(row['url']), saas_words, pbn_words, result, csv_file_path, session))
-        # await asyncio.gather(*tasks)
+async def run(url_list, file_path, semaphore):
+    tasks = []
+    for url in url_list:
+        task = process_single_url(url, file_path, semaphore)
+        tasks.append(task)
+    await asyncio.gather(*tasks)
 
 
 if __name__ == "__main__":
-    try:
-        df = pd.read_csv(config.local.csv_file_dir)
-        checked_count = df[df['checked'] == True].shape[0]
-        logging.info("Start checking")
-        now = datetime.now()
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        end = datetime.now()
-        time_dif = end - now
-        df = pd.read_csv(config.local.csv_file_dir)
-        last_checked_count = df[df['checked'] == True].shape[0]
-        total_checked = last_checked_count - checked_count
-        logging.info(f"End checking {time_dif} time | {total_checked} urls")
+    # file_dir = get_latest_file()
+    file_dir = "./data/input/saas_checker_input.csv"
+    if file_dir:
+        asyncio.run(collect_data(file_dir, batch_size=10))
+    else:
+        print("Check Files")
