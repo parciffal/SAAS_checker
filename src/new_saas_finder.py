@@ -5,39 +5,6 @@ from aiohttp import ClientSession
 from bs4 import BeautifulSoup
 
 
-PBD_WORDS = [
-    "business",
-    "tech",
-    "technology",
-    "technologies",
-    "finance",
-    "finances",
-    "marketing",
-    "digital marketing",
-]
-
-SAAS_WORDS = [
-    "software",
-    "platform",
-    "service",
-    "services",
-    "tool",
-    "tools",
-    "solution",
-    "solutions",
-    "maker",
-    "generator",
-    "creator",
-    "builder",
-    "finder",
-    "tracker",
-    "agency",
-    "company",
-    "pricing",
-    "what we do",
-]
-
-
 class GetPageLinks:
     def __init__(self, input_file):
         self.input_file =r"data/input/" +  input_file
@@ -45,8 +12,10 @@ class GetPageLinks:
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
-        self.saas_words = SAAS_WORDS
-        self.pbn_words = PBD_WORDS
+        self.saas_words = pd.read_csv("data/input/Saas.csv")['Keyword']
+        print(len(self.saas_words))
+        print(self.saas_words)
+        self.pbn_words = pd.read_csv("data/input/PBN.csv")['Keyword']
 
     #
     def __get_data(self, file_name):
