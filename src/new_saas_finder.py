@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 class GetPageLinks:
     def __init__(self, input_file):
         self.input_file =r"data/input/" +  input_file
+        self.pbn_words = PBD_WORDS
+        self.add_columns()
         self.__data = self.__get_data(self.input_file)
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -20,6 +22,7 @@ class GetPageLinks:
     #
     def __get_data(self, file_name):
         df = pd.read_csv(file_name, low_memory=False)
+
         return df
     
     @staticmethod
@@ -37,6 +40,9 @@ class GetPageLinks:
         found_pbn = []
         find_all_a_tags = soup.find_all("a")
         print(f"-----------------{domain}----------------")
+
+        df = pd.read_csv(self.input_file)
+        target_row = df[df["domain"] == domain]
         for a in find_all_a_tags:
             text = a.text.lower()
             for word in self.saas_words:
@@ -51,16 +57,23 @@ class GetPageLinks:
                 if word == text:
                     if word not in found_pbn:
                         found_pbn.append(word)
+                        df.loc[df["domain"] == domain, word] = True
                         print(f"Pbn: {word} Text: {text}")
                         pbn_count += 1
                         break
-
-        df = pd.read_csv(self.input_file)
-        target_row = df[df["domain"] == domain]
         if not target_row.empty:
             df.loc[df["domain"] == domain, "saas"] = int(saas_count)
             df.loc[df["domain"] == domain, "pbn"] = int(pbn_count)
             df.loc[df["domain"] == domain, "checked"] = True
+
+        df.to_csv(self.input_file, index=False)
+
+    def add_columns(self):
+        df = pd.read_csv(self.input_file, low_memory=False)
+        existing_columns = set(df.columns)
+        for word in self.pbn_words:
+            if word not in existing_columns:
+                df[word] = False
         df.to_csv(self.input_file, index=False)
 
 
