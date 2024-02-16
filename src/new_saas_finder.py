@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 class GetPageLinks:
     def __init__(self, input_file):
         self.input_file =r"data/input/" +  input_file
-        self.add_columns()
         self.__data = self.__get_data(self.input_file)
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -63,14 +62,6 @@ class GetPageLinks:
             df.loc[df["domain"] == domain, "pbn"] = int(pbn_count)
             df.loc[df["domain"] == domain, "checked"] = True
 
-        df.to_csv(self.input_file, index=False)
-
-    def add_columns(self):
-        df = pd.read_csv(self.input_file, low_memory=False)
-        existing_columns = set(df.columns)
-        for word in self.pbn_words:
-            if word not in existing_columns:
-                df[word] = False
         df.to_csv(self.input_file, index=False)
 
 
