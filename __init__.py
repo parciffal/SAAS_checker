@@ -1,14 +1,16 @@
-"""main file"""
-pbn_words = ["/MAGAZINE", "/NEWS", "/HEALTH", "/MUM", "/FASHION", "/CASINO",
-                 "/DAILY", "/LIFESTYLE", "/CBD", "/GAMB", "/FOOD", "/GAMBLING",
-                 "/REVIEW", "/LEGAL", "/UNIVERSITY", "/SCHOOL", "/TRAVEL", "/MEDICAL"]
+import pandas as pd
 
-saas_words = ["/SOFTWARE", "/PLATFORM", "/SERVICE", "/TOOL", "/PRICING",
-                "/SOLUTION", "/MAKER", "/GENERATOR", "/CREATOR", "/PRICE"
-                "/BUILDER", "/FINDER", "/TRACKER", "/AGENCY", "/COMPANY"]
+# Load the CSV file
+file_name = 'data/input/inputs.csv'  # Replace with your file path
+data = pd.read_csv(file_name)
 
-pbn_words = [i.lower() for i in pbn_words]
-saas_words = [i.lower() for i in saas_words]
+# Calculate the number of rows per file
+rows_per_file = len(data) // 10
 
-print(pbn_words)
-print(saas_words)
+# Split and save into new files
+for i in range(10):
+    start_row = i * rows_per_file
+    # Handle the last file to include any remaining rows
+    end_row = (i + 1) * rows_per_file if i < 9 else len(data)
+    split_data = data.iloc[start_row:end_row]
+    split_data.to_csv(f'data/input/inputs_{i+1}.csv', index=False)
