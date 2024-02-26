@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 
 
-class GetPageLinks:
+class GetPageLinksSelenium:
     def __init__(self, file_name):
         self.__data = self.__read_csv(file_name)
         self.__driver = self.__init_driver()
