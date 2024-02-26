@@ -64,7 +64,6 @@ class GetPageLinks:
 
         df.to_csv(self.input_file, index=False)
 
-
     async def create_tasks(self, link):
         if pd.isna(self.__data.loc[self.__data["domain"] == link, "checked"].values[0]):
             async with ClientSession(headers=self.headers) as session:
@@ -93,4 +92,3 @@ class GetPageLinks:
             await self.process_chunk(
                     links[i: i + step]
                 )
-            

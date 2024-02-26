@@ -70,11 +70,13 @@ class GetPageLinksSelenium:
             if word not in existing_columns:
                 df[word] = False
         df.to_csv(self.input_file, index=False)
-#
+    
+    #
     def run_script(self):
         # print(self.pbn_words)
         links = self.__data["domain"].tolist()
         print(links)
         for link in links:
-            self.find_with_selenium(link)  
+            if pd.isna(self.__data.loc[self.__data["domain"] == link, "checked"].values[0]) or self.__data.loc[self.__data["domain"] == link, "checked"].values[0] == "bratva":
+                self.find_with_selenium(link)  
         self.__driver.quit()
