@@ -20,12 +20,11 @@ class GetPageLinks:
         df = pd.read_csv(file_name, low_memory=False)
 
         return df
-    
+
     @staticmethod
     async def fetch(url, session):
         async with session.get(url, timeout=10) as response:
             return await response.text()
-
 
     #
     async def parse_html(self, html, domain):
@@ -65,7 +64,7 @@ class GetPageLinks:
         df.to_csv(self.input_file, index=False)
 
     async def create_tasks(self, link):
-        if pd.isna(self.__data.loc[self.__data["domain"] == link, "checked"].values[0]):
+        if pd.isna(self.__data.loc[self.__data["domain"] == link, "checked"].values[0]) or self.__data.loc[self.__data["domain"] == link, "checked"].values[0] == "bratva":
             async with ClientSession(headers=self.headers) as session:
                 print(f"Link: {link}")
                 try:
